@@ -3,7 +3,7 @@ package com.example.tangyouhong.helloandroid;
 /**
  * Created by tangyouhong on 3/25/16.
  */
-public class Person {
+public class Person{
 
     String biaoti;
     String data;
@@ -51,7 +51,7 @@ public class Person {
         this.miaoshu = miaoshu;
     }
 
-    public Person(String biaoti, String data, String time,String miaoshu) {
+    public Person(String biaoti, String data,int id, String time,String miaoshu) {
         super();
         this.biaoti = biaoti;
         this.data = data;
